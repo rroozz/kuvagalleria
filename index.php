@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+<?php $link_name = 'Galleria'; ?>
+<a href="galleria.php?id=1"><?php echo $link_name; ?></a>
+
     <h1>Upload</h1>
     <form action="upload.php" method="post" enctype="multipart/form-data">
         <label for="author">Author</label>
