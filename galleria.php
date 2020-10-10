@@ -11,6 +11,8 @@
     </style>
 </head>
 <body>
+<?php $link_name = 'Upload'; ?>
+<a href="index.php?id=2"><?php echo $link_name; ?></a>
     <h1>Gallery</h1>
     <?php
     $xml =simplexml_load_file('data/galleria.xml');
